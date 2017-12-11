@@ -89,4 +89,12 @@ What terminal editor will be your preferred choice of use? How did you make your
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
 **Vim**, because I've not used terminal or graphical editors previously, and learning one editor for both functions seems logical.
+
+One can switch from control, to input, to visual settings by pressing individual keys and never leaving the terminal window.
+
+:wq -saves and quits
+u -undo
+crtl+r -redo
+
+Making changes to the .vimrc file.
  
