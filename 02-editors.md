@@ -82,7 +82,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
 **Vim**, because when I searched for tutorials the ones for vim were the most accessible.
---
+
 
 ### Q3. Graphical Editor
 
