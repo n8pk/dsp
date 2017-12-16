@@ -19,7 +19,35 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`pwd`
+* show current working directory path
+
+`mkdir dir`
+* creating a directory
+
+`rm -r dir`
+* deleting a directory
+
+`touch newfile`
+* creating a file using `touch` command
+
+`rm file`
+* deleting a file
+
+`mv file_old file_new`
+* renaming a file
+
+`ls -a`
+* listing hidden files
+
+`cp dir1/file dir2`
+* copying a file from one directory to another
+
+`cd`
+* go back to the home directory
+
+`clear`
+* clear all activity in current terminal
 
 ---
 
@@ -34,7 +62,27 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+
+`ls`  
+* list contents of current working directory
+
+`ls -a`  
+* list all contents, including hidden ones
+
+`ls -l`  
+* change output to long format
+
+`ls -lh`  
+* display file sizes in human readable format instead of bytes
+
+`ls -lah` 
+* list all contents in human readable format
+
+`ls -t`  
+* sort output by modification date
+
+`ls -Glp`  
+* long format, no owner name, inserts **/** behind directory names
 
 ---
 
