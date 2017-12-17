@@ -90,8 +90,20 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`-x`
+* display files in row format
 
+`-t`
+* displays by date, newest first
+
+`-q`
+* missing characters replaced by ?
+
+`-m`
+* human-readable list with commas
+
+`-F`
+* flags filenames
 ---
 
 ### Q4.  Xargs   
