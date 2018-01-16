@@ -208,7 +208,23 @@ print(slope)
 ### Q4. [Think Stats Chapter 5 Exercise 1](statistics/5-1-blue_men.md) (normal distribution of blue men)
 This is a classic example of hypothesis testing using the normal distribution.  The effect size used here is the Z-statistic. 
 
+```python
+#height dist is N(178, 7.7)
+#what percentage is on the interval [177.8, 185.42]
 
+import scipy.stats as ss
+
+#given mean and sd of the distribution
+mean = 178
+sd = 7.7
+
+#use scipy to generate a normal distribution
+dist = ss.norm(mean, sd)
+
+#percentage on the desired interval
+print(100*(dist.cdf(185.42) - dist.cdf(177.8)))
+#34.2746837631
+```
 
 ### Q5. Bayesian (Elvis Presley twin) 
 
@@ -216,14 +232,23 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+```python
+#given that elvis was a twin, what's the probability he was a maternal twin?
+# P(maternal) = 1/300    P(fraternal) = 1/125
+
+# P(maternal|twin) = P(maternal) / P(maternal)+P(fraternal)
+
+x = (1/300)/((1/300)+(1/125))
+print(x)
+```
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+In frequentist stats, probabilities are fixed and results are 0 or 1.
+In Bayesian stats, probabilities and results can be variables in distributions.
 
 ---
 
